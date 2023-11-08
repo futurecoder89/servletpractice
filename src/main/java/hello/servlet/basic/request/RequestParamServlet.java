@@ -13,7 +13,7 @@ import java.io.IOException;
  * http://localhost:8081/request-param?username=hello&age=20
  */
 
-@WebServlet(name = "requestParamSerlet", urlPatterns = "/request-param")
+@WebServlet(name = "requestParamServlet", urlPatterns = "/request-param")
 public class RequestParamServlet extends HttpServlet {
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
